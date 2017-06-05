@@ -5,8 +5,7 @@
   text-align: center;
 }
 
-h2,
-h4 {
+h2, h3, h4 {
   opacity: 0.9;
 }
 
@@ -74,6 +73,7 @@ a {
 /* Featured Section */
 
 .sub-container2 {
+  display: flex;
   padding-top: 50px;
 }
 
@@ -96,4 +96,46 @@ a {
   width: 300px;
   padding-right: 20px;
   padding-bottom: 10px;
+}
+
+/* Location Section */
+.locations {
+  display: block;
+  justify-content: center;
+  align-self: center;
+  background-image: url('../images/teacup.jpg');
+  height: 500px;
+  width: 1200px;
+  padding-top: 70px;
+  opacity: 1.0;
+}
+
+.locations h2 {
+  padding-bottom: 15px;
+  display: block;
+  opacity: 0.9;
+  background-color: transparent;
+}
+
+.sub-container3 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1100px;
+  margin: 50px;
+  background-color: transparent;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 280px;
+  background-color: black;
+  height: 250px;
+  width: 10px;
+  margin: 5px 20px;
+}
+
+h3, p {
+  opacity: 0.9;
 }
