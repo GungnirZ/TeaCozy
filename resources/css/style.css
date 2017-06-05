@@ -1,7 +1,6 @@
 *{
   background-color: black;
   font-family: Helvetica;
-  font-size: 22px;
   color: seashell;
   opacity: 0.9;
   text-align: center;
@@ -9,6 +8,7 @@
 
 header {
   display: flex;
+  top: 0;
   height: 69px;
   width: 100%;
   position: fixed;
@@ -18,12 +18,17 @@ header {
 
 .logo {
   height: 50px;
+  padding-left: 10px;
   display: flex;
   flex-grow: 1;
 }
 
 nav span {
   display: inline-block;
+  padding-right: 10px;
+  font-size: 22px;
+  padding-top: 20px;
+  padding-right: 20px;
 }
 
 a {
@@ -32,15 +37,28 @@ a {
 }
 
 /* Mission Section */
-
-.container {
+.main-container {
   display: flex;
+  justify-content: center;
+}
+
+.sub-container {
+  display: flex;
+  justify-content: center;
   background-image: url('../images/mission.jpg');
   height: 700px;
   width: 1200px;
   align-content: center;
+  padding-top: 69px;
 }
 
-.mission {
-  align-items: center;
+#mission {
+  align-self: center;
+  opacity: 1.0;
+  width: 1200px;
+}
+
+#mission h2,
+h4 {
+  opacity: 0.9;
 }
