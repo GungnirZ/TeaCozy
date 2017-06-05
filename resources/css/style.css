@@ -29,6 +29,10 @@ header {
   flex-grow: 1;
 }
 
+.logo img {
+  width: 200px;
+}
+
 nav span {
   display: inline-block;
   padding-right: 10px;
