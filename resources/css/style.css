@@ -1,0 +1,46 @@
+*{
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  height: 50px;
+  display: flex;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+}
+
+a {
+  text-decoration: underline;
+  color: seashell;
+}
+
+/* Mission Section */
+
+.container {
+  display: flex;
+  background-image: url('../images/mission.jpg');
+  height: 700px;
+  width: 1200px;
+  align-content: center;
+}
+
+.mission {
+  align-items: center;
+}
